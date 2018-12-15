@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-color: #aad160;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #4e4b4b;
+  text-transform: uppercase;
+}
+
+.quote,
+.author {
+  color: #bd0f0f;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.tweet {
+  text-decoration: none;
+  color: #1da1f2;
+  font-size: 40px;
+}
+
+.tweet:hover {
+  color: #3fb8ff;
+}
+
+.trigger {
+  padding: 20px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+  text-transform: uppercase;
+}
