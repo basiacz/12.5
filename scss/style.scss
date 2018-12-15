@@ -1,27 +1,27 @@
 body {
   text-align: center;
-  background-color: rgb(170, 209, 96);
+  background: rgb(63, 184, 255);
   font-family: sans-serif;
 }
 
 h1 {
-  color: rgb(78, 75, 75);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 
 .quote,
 .author {
-  color: rgb(189, 15, 15);
+  color: rgb(255, 255, 255);
   font-style: italic;
   font-weight: lighter;
 }
 
 .tweet {
   text-decoration: none;
-  color: rgb(29, 161, 242);
+  color: rgb(255, 255, 255);
   font-size: 40px;
   &:hover {
-    color: rgb(63, 184, 255);
+    color: rgb(255, 255, 255);
   }
 }
 
@@ -29,6 +29,5 @@ h1 {
   padding: 20px;
   display: block;
   margin: 10px auto;
-  border-radius: 50%;
   text-transform: uppercase;
 }
